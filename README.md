@@ -55,7 +55,27 @@ source .bashrc
  5.Application binary instruction  
  6.Memory allocation and stack pointer  
  
+</details>  
+<details>
+ <summary>Lab:RISC-V Software Toolchain</summary>  
+ Let us take an example [sum1ton.c] to understand how to compile code using RISC-V GCC compiler.  
+ ```  
+ #include <stdio.h>
+int main()
+{
+    int i, sum =0, n=5;
+    for(i=1;i<=n;++i)
+    {
+        sum+=i;
+    }
+    printf("sum of numbers from 1 to %d is %d \n",n,sum);
+    return 0;
+}  
+```  
+Following command are used to compile and view C files using normal GCC Compiler:  
+```  
+> gcc <filename>  
+> ./a.out  
+```  
  
-
-
 </details>
