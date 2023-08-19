@@ -89,9 +89,9 @@ To deassemble the object file:
 ```
 riscv64-unknown-elf-objdump -d <filename>  
 ```
- Use the below command to scroll through the output of object file:  
- ```
-
+Use the below command to scroll through the output of object file:  
+ 
+```
 riscv64-unknown-elf-objdump -d <filename> | less
 ```
 
