@@ -73,7 +73,7 @@ int main()
     return 0;
 }      
 ```  
-Following command are used to compile and view C files using normal GCC Compiler:  
+Execute the above code using GCC compiler to ensure that the code do not have any issue:  
 
 ```  
 > gcc <filename>  
