@@ -1,5 +1,5 @@
 # RISC-V  
-[Day 0 - Installation]()
+[Day 0 - Installation](h#installation-of-risc-v-tools)
 <details> 
 <summary> Installation </summary>  
  
