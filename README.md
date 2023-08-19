@@ -43,4 +43,13 @@ source .bashrc
 
 ```
 
+</details>  
+<details>
+ <summary>Introduction to Risc-V</summary>  
+ The RISC-V Instruction Set Architecture (ISA) is an open and royalty-free instruction set architecture designed for use in computer processors. It is based on the principles of Reduced Instruction Set Computing (RISC), which aims to simplify the processor's instruction set, making it easier to design, implement, and optimize processors. Below is the list of instructions used in Risc-V:  
+ 1.  
+ 2.  
+ 
+
+
 </details>
