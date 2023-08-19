@@ -4,7 +4,7 @@
 # Day 6-Introduction to RISC-V ISA And GNU compiler toolchain 
  
 <details> 
-<summary> Installation of RISC_V tools</summary>  
+<summary> Installation of RISC-V tools</summary>  
 
 Steps to install Risc-tools (linux)
 
