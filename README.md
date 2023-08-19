@@ -76,13 +76,13 @@ int main()
 Execute the above code using GCC compiler to ensure that the code do not have any issues:  
 
 ```  
-> gcc <filename>  
-> ./a.out
+gcc <filename>  
+./a.out
 ```
 Compiling the same code using RISC-V GCC compiler or simulator:  
 
 ```
-> riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; -RV32> -o <object filename> <C filename>
+riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; -RV32> -o <object filename> <C filename>
 ```
  
 </details>
