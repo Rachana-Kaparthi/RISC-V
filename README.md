@@ -31,8 +31,8 @@ sudo make install
 ```
 
 gedit .bashrc
-#Instead of Alwin put your username
-export PATH="/home/Alwin/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin:$PATH" #Type at last line # close the bashrc and type
+#Instead of rachana put your username
+export PATH="/home/rachana/riscv_toolchain/riscv64-unknown-elf-gcc-8.3.0-2019.08.0-x86_64-linux-ubuntu14/bin:$PATH" #Type at last line # close the bashrc and type
 source .bashrc
 
 ```
