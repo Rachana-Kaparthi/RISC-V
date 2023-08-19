@@ -73,7 +73,7 @@ int main()
     return 0;
 }      
 ```  
-Execute the above code using GCC compiler to ensure that the code do not have any issue:  
+Execute the above code using GCC compiler to ensure that the code do not have any issues:  
 
 ```  
 > gcc <filename>  
