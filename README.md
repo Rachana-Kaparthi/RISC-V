@@ -1,7 +1,7 @@
 # RISC-V  
-[Day 0 - Installation](#installation-of-risc-v-tools)  
+[Day 6 - Installation](#installation-of-risc-v-tools)  
 
-## Installation of RISC-V tools  
+# Day 6-Introduction to RISC-V ISA And GNU compiler toolchain 
  
 <details> 
 <summary> Installation </summary>  
