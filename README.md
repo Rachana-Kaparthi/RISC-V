@@ -1,6 +1,10 @@
 # RISC-V  
+[Day 0 - Installation]()
 <details> 
-<summary> Installation </summary>
+<summary> Installation </summary>  
+ 
+## Installation of RISC-V tools  
+ 
 Steps to install Risc-tools (linux)
 
 ```
