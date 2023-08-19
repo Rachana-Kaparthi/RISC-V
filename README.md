@@ -1,5 +1,5 @@
 # RISC-V  
-[Day 6 - Installation](#installation-of-risc-v-tools)  
+[Day 1 - Installation](#installation-of-risc-v-tools)  
 
 # Day 6-Introduction to RISC-V ISA And GNU compiler toolchain 
  
@@ -84,5 +84,18 @@ Compiling the same code using RISC-V GCC compiler or simulator:
 ```
 riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -RV64 ; -RV32> -o <object filename> <C filename>
 ```
+To deassemble the object file:  
+
+```
+riscv64-unknown-elf-objdump -d <filename>  
+```
+ Use the below command to scroll through the output of object file:  
+ ```
+
+riscv64-unknown-elf-objdump -d <filename> | less
+```
+
+
+
  
 </details>
