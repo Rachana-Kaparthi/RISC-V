@@ -85,6 +85,8 @@ Compiling the same code using RISC-V GCC compiler or simulator:
 riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp32; -ilp32> <architecture specifier -rv64i ; -rv32i> -o <object filename> <C filename>
 spike pk <object file>
 ```
+Output of the compilation:  
+![]()
 To deassemble the object file:  
 
 ```
@@ -94,6 +96,10 @@ Use the below command to scroll through the output of object file:
  
 ```
 riscv64-unknown-elf-objdump -d <filename> | less
+```
+Use the below command to debug using spike:  
+```
+spike -d pk sum1ton.o
 ```
 
 
