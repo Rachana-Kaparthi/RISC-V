@@ -86,7 +86,9 @@ riscv64-unknown-elf-gcc <compiler option -O1 ; Ofast> <ABI specifier -lp64; -lp3
 spike pk <object file>
 ```
 Output of the compilation:  
-![sum1ton_simulation](https://github.com/Rachanaka/RISC-V/blob/main/Images/sum1ton_simulation.png)
+
+![sum1ton_simulation](https://github.com/Rachanaka/RISC-V/blob/main/Images/sum1ton_simulation.png)  
+
 To deassemble the object file:  
 
 ```
