@@ -105,8 +105,8 @@ spike -d pk sum1ton.o
 ```
 Below are images of debug:  
 
-  <img src="../Images/spike_debug.png" width="300" />
-  <img src="https://github.com/Rachanaka/RISC-V/blob/main/Images/obj_debug.png" width="501" /> 
+  <img src="./Images/spike_debug.png" width="400">
+  <img src="./Images/obj_debug.png" width="501"> 
 
 
 
