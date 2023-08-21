@@ -358,6 +358,26 @@ Validity provides :
   
   ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/2-cycle%20calculator%20with%20single%20value%20memory.JPG)  
   
+</details>  
+
+# Day 4 - Introduction to Simple RISC-V Micro Architecture  
+<details>
+ <summary>Basic RISC-V CPU microarchitecture</summary>  
+ The basic building blocks of RISC-V architecture are :
+  
+  - Program Counter (PC)
+  - Imem-Rd ( Instruction Memory)
+  - Instruction Decoder
+  - Register File Read
+  - Arithmatic Logic Unit (ALU)
+  - Register File Write
+  - Branch
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/architecture.png)
+
+</details>  
+<details>
+ <summary>Fetch and Decode</summary>  
+ 
 </details>
 
 ## Acknowledgements  
