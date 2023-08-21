@@ -133,7 +133,4 @@ Output of the program:
 
 <img src="./Images/unsigned_signed.png">
 
-![unsigned_signed](https://github.com/Rachanaka/RISC-V/blob/main/Images/unsigned_signed.png)  
-
-
 </details>
