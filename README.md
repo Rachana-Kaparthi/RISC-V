@@ -152,7 +152,8 @@ How does the ABI access the hardware resources?
  
 </details>  
 
-# References
-![RISCV](https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog) 
+## References  
+
+- https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog 
 
 
