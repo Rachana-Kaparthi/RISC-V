@@ -148,11 +148,10 @@ How does the ABI access the hardware resources?
   - I-type : For instructions having immediate values as operands.
   - R-type : For instructions having only registers as operands.
   - S-type : For instructions used for storing operations.
-
- Immediate[20-31]			Rs1[15-19]	Funct3[12-14]	Rd[7-11]	Opcode[0-6]
+Below is the format of each of these instructions:
+![instruction_format](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_format.png)
 </details>  
 
-Immediate[20-31]					rs1[15-19]	funct3[12-14]	rd[7-11]	opcode[0-6]
 
 ## References  
 
