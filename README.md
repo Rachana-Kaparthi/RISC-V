@@ -139,6 +139,20 @@ Output of the program:
 # Day 2 - Introduction to ABI and basic verification flow  
 <details>
  <summary>Introduction to Application Binary Interface</summary>  
+How does the ABI access the hardware resources? 
+  - It uses different registers(32 in number) which are each of width `XLEN = 32 bit` for RV32 (~`XLEN = 64 for RV64`) . On a higher level of abstraction these registers are accessed by their respective ABI names.
+  
+ - In RISC-V architecture, the memories are byte addressable. The RISC-V belongs to the little endian memory addressing system.
+  
+  For base integer instructions there are broadly 3 types of of such registers:
+  - I-type : For instructions having immediate values as operands.
+  - R-type : For instructions having only registers as operands.
+  - S-type : For instructions used for storing operations.
+
  
-</details>
+</details>  
+
+# References
+![RISCV](https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog) 
+
 
