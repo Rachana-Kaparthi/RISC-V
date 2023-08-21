@@ -333,8 +333,35 @@ Pipelining is a technique used in computer architecture and digital circuit desi
  Output in makerchip  
  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/2_cycle_calculator.png)
  
+</details> 
+<details>
+ <summary>Validity</summary>   
  
+Validity is another feature in TL verilog which is asserted if a particular transactions in a pipeline is valid or true. A new scope, called “when” scope is introduced for this and it is denoted as `?$valid`. This new scope has many advantages - easier design, cleaner debug, better error checking and automated clock gating.
+Validity provides :
+- Easier debug
+- Cleaner design
+- Better error checking
+- Automated Clock gating
+  
+</details>
+<details>
+ <summary>Labs that include validy</summary>  
  
+**Distance Acculmulator**
+
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Distance_accumulator.JPG)
+  
+**2-Cycle Calculator with validity**
+  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/2-cycle%20calculator%20with%20validity%20final%20output.JPG)  
+  
+   As seen above, apart from the waveforms, The VIZ graphic visualizer was a very helpful tool in Makerchip which helped us analyse and debug our design in case of any functional errors.
+  
+**Calculator with Single Value Memory**  
+  
+  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/2-cycle%20calculator%20with%20single%20value%20memory.JPG)  
+  
 </details>
 
 ## Acknowledgements  
