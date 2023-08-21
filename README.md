@@ -221,7 +221,7 @@ loop:   add a4,a3,a4   //incremental addition
 4. To list the contents of the directory, type : 
 `$ls -ltr`
 
-![](Snaps/gitclone_riscv_collaterals.JPG) 
+![](./Images/gitclone_riscv_collaterals.JPG) 
 
 5. To view the RISC-V CPU code (for picorv32) written in Verilog :
 `$vim picorv32.v` .  This contains the entire verilog netlist.
@@ -229,7 +229,7 @@ loop:   add a4,a3,a4   //incremental addition
 6. To view the testbench file:
 `$vim testbench.v` .  This is where we read the hexfile. Scroll down to see the line : **$readmemh("firmware.hex",memory)**
 
-![](Snaps/firmware_file_called_inside_tesbench.JPG)
+![](./Images/firmware_file_called_inside_tesbench.JPG)
 
 7. To view the standard script of how do we create the hex file :
 `$vim rv32im.sh` .  This file contains basically all the necessary set of scripts required to convert the C and Assembly code into hex file and load it into the memory, and then run it. 
@@ -244,13 +244,14 @@ loop:   add a4,a3,a4   //incremental addition
 For 64-bit : `$vim firmware.hex`
 For 32-bit : `$vim firmware32.hex`  
 
-![](Snaps/firmware_hex_file.JPG)
+![](./Images/firmware_hex_file.JPG)
 
 These files shows how the application software is converted into bitstreams and this firmware file is loaded into the memory through the testbench. This file is then processed by the RISC-V core and finally it displays the output results.
 
-### Final Output snap of Day_2
+### Final Output after running shell script  
 
-![](Snaps/rvsim32_output.JPG)
+![](./Images/final_output_day2.JPG)  
+
 </details>
 
 ## Day 3 - Digital Logic with TL Verilog and Makerchip  
