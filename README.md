@@ -152,6 +152,8 @@ How does the ABI access the hardware resources?
  
 </details>  
 
+Immediate[20-31]					rs1[15-19]	funct3[12-14]	rd[7-11]	opcode[0-6]
+
 ## References  
 
 - https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog 
