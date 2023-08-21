@@ -315,8 +315,15 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
       $out[31:0] = $reset ? 32'b0 : (($op[1:0]==2'b00) ? $sum :($op[1:0]==2'b01) ? $diff : ($op[1:0]==2'b10) ? $prod : $quot);
 ```
 
- 
 </details>  
+<details>
+ <summary>Pipelined Logic</summary>   
+ 
+ **Explanation of pipelining through Pythogorean example**  
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Pythagorean_example_validity_check2.JPG)  
+ 
+ 
+</details>
 
 ## Acknowledgements  
 - Kunal Ghosh, VSD Corp. Pvt. Ltd.
