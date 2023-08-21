@@ -153,7 +153,7 @@ How does the ABI access the hardware resources?
 Below is the format of each of these instructions:  
 
 ![instruction_format](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_format.png)  
-Below is the list of 32 registers:  
+Below is the list of 32 registers and their ABI names:  
 ![ABI_registers](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/ABI_registers.png)  
 
 </details>  
