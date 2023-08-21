@@ -239,6 +239,8 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
 **Multiplexer**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/multiplexer%2Bmakerchip.png)  
 
+**Combinational Calculator**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/calculator_makerchip.png)  
 
  
 </details>
