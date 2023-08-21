@@ -165,8 +165,36 @@ We try to implement the same program "sum of numbers from 1 to n" in a different
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Block_diagram_for_C_to_assembly_code.JPG)
 
 **Complete Algorithm Flowchart for running the C program using Assembly language**  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Algorithm_Flowchart_for_C_to_assembly_code.JPG)
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Algorithm_Flowchart_for_C_to_assembly_code.JPG)  
 
+**Code of Modified custom C prorgram and "load.S" Assembly language program**  
+
+```
+#include<stdio.h>
+extern int load(int x,int y);
+int main()
+{
+    int result=0, count=9;
+    result = load(0x0,count+1);
+    printf("sum of nubers from 1 to %d is %d\n",count,result);
+
+}
+```
+
+```
+.section .text
+.global load
+.type load, @function
+load:
+        add a4,a0,zero //initialize sum register a4 with 0x0
+        add a2,a0,a1   //store count of 10 in register a2, register a1 is loaded with 0xA(decimal 10) from main
+        add a3,a0,zero //initialize intermediate sum register a3 by 0 
+loop:   add a4,a3,a4   //incremental addition
+        addi a3,a3,1   //increment intermediate register by 1
+        blt a3,a2,loop //if a3 < a2, branch to loop named <loop>
+        add a0,a4,zero //store the final result to a0 so that it can be read by main program
+        ret
+```
 </details>  
 
 
