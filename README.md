@@ -138,7 +138,8 @@ Output of the program:
 
 # Day 2 - Introduction to ABI and basic verification flow  
 <details>
- <summary>Introduction to Application Binary Interface</summary>  
+ <summary>Introduction to Application Binary Interface</summary>    
+ 
 How does the ABI access the hardware resources? 
   - It uses different registers(32 in number) which are each of width `XLEN = 32 bit` for RV32 (~`XLEN = 64 for RV64`) . On a higher level of abstraction these registers are accessed by their respective ABI names.
   
@@ -148,8 +149,13 @@ How does the ABI access the hardware resources?
   - I-type : For instructions having immediate values as operands.
   - R-type : For instructions having only registers as operands.
   - S-type : For instructions used for storing operations.
-Below is the format of each of these instructions:
-![instruction_format](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_format.png)
+    
+Below is the format of each of these instructions:  
+
+![instruction_format](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_format.png)  
+Below is the list of ABI registers:  
+![ABI_registers](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/ABI_registers.png)  
+
 </details>  
 
 
