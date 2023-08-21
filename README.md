@@ -326,6 +326,12 @@ Pipelining is a technique used in computer architecture and digital circuit desi
 
  **Computing total distance**  
  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/err.png)  
+
+ **2 Cycle Calculator**  
+ Block Diagram:  
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/counter_calculator_schematic.png)  
+ Output in makerchip  
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/2_cycle_calculator.png)
  
  
  
