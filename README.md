@@ -1,7 +1,7 @@
 # RISC-V  
 [Day 1 - Installation](#installation-of-risc-v-tools)  
 
-# Day 6-Introduction to RISC-V ISA And GNU compiler toolchain 
+# Day 1-Introduction to RISC-V ISA And GNU compiler toolchain 
  
 <details> 
 <summary> Installation of RISC-V tools</summary>  
@@ -108,8 +108,24 @@ Below are images of debug:
   <img src="./Images/spike_debug.png" width="400">
   <img src="./Images/obj_debug.png" width="501"> 
 
+</details>
 
-
+<details>
+ <summary>Integer number representation</summary>
+ Maximum unsigned number that can be represented by riscv 64 bit is 18446744073709551615 i.e. (2^64 - 1) where as maximum and  minimum signed numbers that can be represented by riscv 64 bit is 9223372036854775807 and -9223372036854775808. The same can be verified using below program:  
+```  
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    long long int max=(long long int)(pow(2,63)-1);
+    long long int min=(long long int)(pow(2,63)*-1);
+    unsigned long long int unsigned_max=(unsigned long long int)(pow(2,64),-1);
+    printf("Highest number represented by signed long long int is %lld \n",max);
+    printf("Highest number represented by signed long long int is %lld \n",min);
+    printf("Highest number represented by unsigned long long int is %llu \n",unsigned_max);
+    return 0;
+}
 
  
 </details>
