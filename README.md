@@ -2,7 +2,7 @@
 [Day 1 - Introduction to RISC-V ISA And GNU compiler toolchain ](#day-1-introduction-to-risc-v-isa-and-gnu-compiler-toolchain)  
 [Day 2 - Introduction to ABI and basic verification flow](#day-2---introduction-to-abi-and-basic-verification-flow)
 
-# Day 1-Introduction to RISC-V ISA And GNU compiler toolchain 
+## Day 1-Introduction to RISC-V ISA And GNU compiler toolchain 
  
 <details> 
 <summary> Installation of RISC-V tools</summary>  
@@ -136,7 +136,7 @@ Output of the program:
 
 </details>  
 
-# Day 2 - Introduction to ABI and basic verification flow  
+## Day 2 - Introduction to ABI and basic verification flow  
 <details>
  <summary>Introduction to Application Binary Interface</summary>    
  
@@ -205,7 +205,7 @@ loop:   add a4,a3,a4   //incremental addition
   
 </details>  
 
-# Day 3 - Digital Logic with TL Verilog and Makerchip  
+## Day 3 - Digital Logic with TL Verilog and Makerchip  
 
 
 
