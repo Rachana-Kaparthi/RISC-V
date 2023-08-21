@@ -297,12 +297,24 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
 
 <details>
  <summary>Labs for Sequential circuits</summary>   
- 
+  
  **Fibanocci Series**
  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fibanocci_series.png)  
 
  **Sequential Calculator**  
- ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/sequential_calculator.png)
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/sequential_calculator.png)   
+ This is an extention to the combinational calculator and below is the code:
+ ```
+/top
+      $val1[31:0] = >>1$out[31:0];
+      $val2[31:0] = $rand1[3:0];
+      $sum[31:0] = $val1[31:0] + $val2[31:0];
+      $diff[31:0] = $val1[31:0] - $val2[31:0];
+      $prod[31:0] = $val1[31:0] * $val2[31:0];
+      $quot[31:0] = $val1[31:0] / $val2[31:0];
+      $out[31:0] = $reset ? 32'b0 : (($op[1:0]==2'b00) ? $sum :($op[1:0]==2'b01) ? $diff : ($op[1:0]==2'b10) ? $prod : $quot);
+```
+
  
 </details>  
 
