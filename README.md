@@ -251,7 +251,7 @@ For 32-bit : `$vim firmware32.hex`
 
 These files shows how the application software is converted into bitstreams and this firmware file is loaded into the memory through the testbench. This file is then processed by the RISC-V core and finally it displays the output results.
 
-### Final Output after running shell script  
+**Final Output after running shell script**  
 
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/final_output_day2.png)  
 
