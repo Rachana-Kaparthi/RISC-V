@@ -319,6 +319,8 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
 <details>
  <summary>Pipelined Logic</summary>   
  
+Pipelining is a technique used in computer architecture and digital circuit design to improve the overall performance and throughput of a system. It involves breaking down a complex task or process into a series of smaller stages or subtasks, where each stage is performed by a separate component or processing unit. These stages are connected in a pipeline, with each stage working on a different input while the previous stage continues to work on the next input.
+ 
  **Explanation of pipelining through Pythogorean example**  
  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Pythagorean_example_validity_check2.JPG)  
  
