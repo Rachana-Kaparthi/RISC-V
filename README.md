@@ -343,11 +343,7 @@ Validity provides :
 - Cleaner design
 - Better error checking
 - Automated Clock gating
-  
-</details>
-<details>
- <summary>Labs that include validy</summary>  
- 
+
 **Distance Acculmulator**
 
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Distance_accumulator.JPG)
