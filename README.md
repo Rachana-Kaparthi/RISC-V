@@ -131,6 +131,6 @@ int main()
 
 Output of the program:  
 
-![unsigned_signed](./Images/unsigned_signed.png)  
+![unsigned_signed](https://github.com/Rachanaka/RISC-V/blob/main/Images/unsigned_signed.png)  
 
 </details>
