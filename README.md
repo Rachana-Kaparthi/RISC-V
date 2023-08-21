@@ -112,7 +112,8 @@ Below are images of debug:
 
 <details>
  <summary>Integer number representation</summary>
- Maximum unsigned number that can be represented by riscv 64 bit is 18446744073709551615 i.e. (2^64 - 1) where as maximum and  minimum signed numbers that can be represented by riscv 64 bit is 9223372036854775807 and -9223372036854775808. The same can be verified using below program:  
+ Maximum unsigned number that can be represented by riscv 64 bit is 18446744073709551615 i.e. (2^64 - 1) where as maximum and  minimum signed numbers that can be represented by riscv 64 bit is 9223372036854775807 and -9223372036854775808. The same can be verified using below program: 
+ 
 ```  
 #include<stdio.h>
 #include<math.h>
@@ -126,6 +127,6 @@ int main()
     printf("Highest number represented by unsigned long long int is %llu \n",unsigned_max);
     return 0;
 }
-
+```
  
 </details>
