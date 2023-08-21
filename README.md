@@ -158,7 +158,8 @@ Below is the list of 32 registers and their ABI names:
 
 </details>  
 <details>  
- <summary>Lab work using ABI function calls</summary>
+ <summary>Lab work using ABI function calls</summary>  
+ 
 We try to implement the same program "sum of numbers from 1 to n" in a different method by taking the advantage of ABI interface and function calls.
 - There is the main C program containing the code for the summation of numbers from 1 to n.
 - We modify it and through the C program we make some funtion calls to the Assembly Language Program trhough the registers a0 and a1.
@@ -203,6 +204,9 @@ loop:   add a4,a3,a4   //incremental addition
   - To run we use spike which is a RISC-V simulator, following is the command `spike pk 1to9_custom.o`.
   
 </details>  
+
+# Day 3 - Digital Logic with TL Verilog and Makerchip  
+
 
 
 ## References  
