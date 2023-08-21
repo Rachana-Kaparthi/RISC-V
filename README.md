@@ -207,7 +207,37 @@ loop:   add a4,a3,a4   //incremental addition
 </details>  
 
 ## Day 3 - Digital Logic with TL Verilog and Makerchip  
+<details>
+ <summary>Introduction to Makerchip IDE</summary>  
+ Day 3 of the workshop included the following:
 
+    1. Combinational logic in TL-Verilog using Makerchip
+    2. Sequential and pipelined logic
+    3. Validity
+    4. Hierarchy
+
+
+An introduction to TL-Verilog was done and we implemented basic combinational and sequential logic using the same.This day finally ended with an implementation of a sequential cyclic calculator. For this, Makerchip IDE, which is an open source tool developed by Redwood EDA has been utilised.
+  
+  TL-Verilog is an extension for System Verilog, moreover it acts as an higher level abstraction for System verilog which makes HDL implementation very easy and error free. Here we deal the design at a transaction level assuming the design as a pipeline, where inputs would be provided and output will be generated at the end of the pipeline. 
+  
+  **Advantages** : 
+   - Code reduction , and thus less chances of being bug prone.
+   - In pipelining ,the flip flops,registers and other staged signals are implied from the context. 
+   - It is very easy to stage different sections without impacting the behaviour of the logic.
+   - Validity feature which provides easier debugging, cleaner design, automated clock gating and better error checking capabilities.
+</details>  
+<details>
+ <summary>Labs on Makerchip IDE</summary>   
+ 
+**Inverter using Makerchip**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/and_makerchip.png)
+
+**Vector addition**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/inverter_makerchip.png)
+
+ 
+</details>
 
 
 ## References  
