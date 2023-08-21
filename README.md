@@ -221,7 +221,7 @@ loop:   add a4,a3,a4   //incremental addition
 4. To list the contents of the directory, type : 
 `$ls -ltr`
 
-![](./Images/gitclone_riscv_collaterals.JPG) 
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/gitclone_riscv_collaterals.png) 
 
 5. To view the RISC-V CPU code (for picorv32) written in Verilog :
 `$vim picorv32.v` .  This contains the entire verilog netlist.
@@ -229,7 +229,7 @@ loop:   add a4,a3,a4   //incremental addition
 6. To view the testbench file:
 `$vim testbench.v` .  This is where we read the hexfile. Scroll down to see the line : **$readmemh("firmware.hex",memory)**
 
-![](./Images/firmware_file_called_inside_tesbench.JPG)
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/firmware_file_called_inside_tesbench.png)  
 
 7. To view the standard script of how do we create the hex file :
 `$vim rv32im.sh` .  This file contains basically all the necessary set of scripts required to convert the C and Assembly code into hex file and load it into the memory, and then run it. 
@@ -242,15 +242,18 @@ loop:   add a4,a3,a4   //incremental addition
 
 10. To view the internals of the firmware hex files:
 For 64-bit : `$vim firmware.hex`
+
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/firmware_hex_file.png)  
+
 For 32-bit : `$vim firmware32.hex`  
 
-![](./Images/firmware_hex_file.JPG)
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/firmware32_hex_file.png)
 
 These files shows how the application software is converted into bitstreams and this firmware file is loaded into the memory through the testbench. This file is then processed by the RISC-V core and finally it displays the output results.
 
 ### Final Output after running shell script  
 
-![](./Images/final_output_day2.JPG)  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/final_output_day2.png)  
 
 </details>
 
