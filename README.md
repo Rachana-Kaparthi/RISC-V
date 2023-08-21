@@ -323,6 +323,10 @@ Pipelining is a technique used in computer architecture and digital circuit desi
  
  **Explanation of pipelining through Pythogorean example**  
  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Pythagorean_example_validity_check2.JPG)  
+
+ **Computing total distance**  
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/err.png)  
+ 
  
  
 </details>
