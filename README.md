@@ -228,13 +228,17 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
    - Validity feature which provides easier debugging, cleaner design, automated clock gating and better error checking capabilities.
 </details>  
 <details>
- <summary>Labs on Makerchip IDE</summary>   
+ <summary>Labs for combinational circuits</summary>   
  
 **Inverter using Makerchip**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/and_makerchip.png)
 
 **Vector addition**  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/inverter_makerchip.png)
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/inverter_makerchip.png)  
+
+**Multiplexer**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/multiplexer%2Bmakerchip.png)  
+
 
  
 </details>
