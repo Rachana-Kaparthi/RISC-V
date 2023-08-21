@@ -154,8 +154,11 @@ Below is the format of each of these instructions:
 
 ![instruction_format](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_format.png)  
 Below is the list of 32 registers and their ABI names:  
-![ABI_registers](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/ABI_registers.png)  
+![ABI_registers](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/ABI_registers.png) 
 
+</details>  
+<details>  
+ <summary>Lab work using ABI function calls</summary>
 We try to implement the same program "sum of numbers from 1 to n" in a different method by taking the advantage of ABI interface and function calls.
 - There is the main C program containing the code for the summation of numbers from 1 to n.
 - We modify it and through the C program we make some funtion calls to the Assembly Language Program trhough the registers a0 and a1.
