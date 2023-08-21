@@ -299,7 +299,10 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
  <summary>Labs for Sequential circuits</summary>   
  
  **Fibanocci Series**
- ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fibanocci_series.png)
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fibanocci_series.png)  
+
+ **Sequential Calculator**  
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/sequential_calculator.png)
  
 </details>  
 
