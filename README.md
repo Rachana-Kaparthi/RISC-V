@@ -156,6 +156,17 @@ Below is the format of each of these instructions:
 Below is the list of 32 registers and their ABI names:  
 ![ABI_registers](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/ABI_registers.png)  
 
+We try to implement the same program "sum of numbers from 1 to n" in a different method by taking the advantage of ABI interface and function calls.
+- There is the main C program containing the code for the summation of numbers from 1 to n.
+- We modify it and through the C program we make some funtion calls to the Assembly Language Program trhough the registers a0 and a1.
+- We write the assembly language program in the RISC-V ISA and do the computation.
+- Finally we send back the final results through the register a0 to the C pogram to get the final output.
+  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Block_diagram_for_C_to_assembly_code.JPG)
+
+**Complete Algorithm Flowchart for running the C program using Assembly language**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Algorithm_Flowchart_for_C_to_assembly_code.JPG)
+
 </details>  
 
 
