@@ -167,7 +167,7 @@ We try to implement the same program "sum of numbers from 1 to n" in a different
 **Complete Algorithm Flowchart for running the C program using Assembly language**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Algorithm_Flowchart_for_C_to_assembly_code.JPG)  
 
-**Code of Modified custom C prorgram and "load.S" Assembly language program**  
+**Code of Modified custom C program and "load.S" Assembly language program**  
 
 ```
 #include<stdio.h>
@@ -195,6 +195,10 @@ loop:   add a4,a3,a4   //incremental addition
         add a0,a4,zero //store the final result to a0 so that it can be read by main program
         ret
 ```
+  - Command used to compile the program is `riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.S`. 
+  - To view to disassemble and view the object file in readable format, we use `riscv64-unknown-elf-objdump -d 1to9_custom.o|less`.
+  - To run we use spike which is a RISC-V simulator, following is the command `spike pk 1to9_custom.o`.
+  
 </details>  
 
 
