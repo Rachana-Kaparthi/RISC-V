@@ -298,8 +298,18 @@ An introduction to TL-Verilog was done and we implemented basic combinational an
 <details>
  <summary>Labs for Sequential circuits</summary>   
  
+ **Fibanocci Series**
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fibanocci_series.png)
  
-</details>
+</details>  
+
+## Acknowledgements  
+- Kunal Ghosh, VSD Corp. Pvt. Ltd.
+- Lasya, Colleage, IIIT B
+- Alwin Shaju, Colleague, IIIT B
+- chatgpt
+- 
+
 ## References  
 
 - https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog
