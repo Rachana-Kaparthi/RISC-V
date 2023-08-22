@@ -540,7 +540,8 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 **Output from Makerchip:**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode1_makerchip.png)  
 
-
+**Final output after decode block is completely implemented:**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode_final_makerchip.png)
 
 </details>  
 
