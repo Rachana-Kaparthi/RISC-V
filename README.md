@@ -425,11 +425,11 @@ Here's how the Program Counter works in the RISC-V architecture:
 
 ### Fetch Logic  
 
-Block diagram of Fetch logic:  
+**Block diagram of Fetch logic:**  
 
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fetch_part2.png)  
 
-Code for Fetch logic:  
+**Code for Fetch logic:**  
 
 ```
 |cpu
@@ -468,7 +468,7 @@ Code for Fetch logic:
    
    m4+cpu_viz(@4)
 ```
-Output from Makerchip:  
+**Output from Makerchip:**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fetch_makerchip.png)  
 
 
