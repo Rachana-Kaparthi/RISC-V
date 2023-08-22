@@ -499,7 +499,7 @@ In the decode stage (decode cycle), the fetched instruction is examined and deco
          $is_i_instr = $instr[6:2] ==? 5'b0000x ||
                        $instr[6:2] ==? 5'b001x0 ||
                        $instr[6:2] ==? 5'b11001;
-         
+
          $is_b_instr = $instr[6:2] ==? 5'b11000;
 ```
 **Output in Makerchip**  
@@ -513,13 +513,12 @@ In the decode stage (decode cycle), the fetched instruction is examined and deco
 - Kunal Ghosh, VSD Corp. Pvt. Ltd.
 - Lasya, Colleage, IIIT B
 - Alwin Shaju, Colleague, IIIT B
-- chatgpt
-- 
+- chatgpt 
 
 ## References  
 
 - https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog
 - https://github.com/alwinshaju08
-- 
+- https://www.vsdiat.com
 
 
