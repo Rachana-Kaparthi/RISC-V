@@ -636,8 +636,11 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
                          $is_bgeu ? ($src1_value >= $src2_value):
                                     1'b0;
          `BOGUS_USE($taken_branch)
+         //BRANCH INSTRUCTIONS 2
+         $br_target_pc[31:0] = $pc +$imm;
+    
 ```
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/branch_instruction.png)  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/branch_instructions.png)  
 
 
 </details>
