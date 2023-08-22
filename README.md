@@ -587,6 +587,7 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 </details>  
 <details>
  <summary>Control Logic</summary>  
+ 
 **Register File Read**  
 ``` 
          //REGISTER FILE READ
@@ -600,15 +601,12 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
  
          $src1_value[31:0] = $rf_rd_data1;
          $src2_value[31:0] = $rf_rd_data2;
+```
 
-         
-```  
  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/read_register_data.png)  
-
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/read_register_data.png)
  
 </details>
-
 
 ## Acknowledgements  
 - Kunal Ghosh, VSD Corp. Pvt. Ltd.
