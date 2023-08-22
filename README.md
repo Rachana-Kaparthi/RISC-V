@@ -642,6 +642,7 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 ```
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/branch_instructions.png)  
 
+Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
 
 </details>
 
