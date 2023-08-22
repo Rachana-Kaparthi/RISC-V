@@ -538,7 +538,7 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 ```
 
 **Output from Makerchip:**  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode_instruction_makerchip.png)  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode1_makerchip.png)  
 
 
 
