@@ -643,8 +643,6 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 ```
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/branch_instructions.png)  
 
-Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
-
 </details> 
 
 # Day 5 - Pipelined RISC-V CPU Micro-architecture  
@@ -652,7 +650,21 @@ Complete code for RISCV microarchitecture can be seen [here](https://github.com/
  
 <details>
  <summary>Pipelining the CPU</summary>  
+
+Pipelining is a technique used in computer architecture to improve the efficiency and throughput of instruction execution in a processor. It involves breaking down the instruction execution process into a series of smaller stages, where each stage is performed by a dedicated hardware unit. By allowing multiple instructions to be in different stages of execution simultaneously, pipelining reduces the overall time taken to complete a sequence of instructions.  
+
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/pipelining.png)  
+
+Challenges and Considerations of pipelining:  
+
+**Data Hazards:** Situations where data dependencies between instructions can cause incorrect results. Techniques like forwarding and stalling are used to handle hazards.
+
+**Control Hazards:** Occur due to conditional branches that alter the flow of instructions. Techniques like branch prediction help mitigate these hazards.
+
+**Structural Hazards:** Arise from resource conflicts, such as multiple instructions trying to access the same resource simultaneously.
  
+ Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
+
 </details>
 
 ## Acknowledgements  
