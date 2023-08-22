@@ -503,7 +503,24 @@ In the decode stage (decode cycle), the fetched instruction is examined and deco
          $is_b_instr = $instr[6:2] ==? 5'b11000;
 ```
 **Output in Makerchip**  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode_instruction_makerchip.png)  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode_instruction_makerchip.png)   
+
+**Decoding Immediate Instruction**  
+
+Different type of instructions have different fields for storing immediate value which is listed as below:  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/Instruction_immediate_decode.png)  
+
+Code to extract immediate values:  
+
+```
+ //INSTRUCTION IMMEDIATE DECODE
+         $imm[31:0] = $is_i_instr ? {{21{$instr[31]}}, $instr[30:20]} :
+                      $is_s_instr ? {{21{$instr[31]}}, $instr[30:25], $instr[11:7]} :
+                      $is_b_instr ? {{20{$instr[31]}}, $instr[7], $instr[30:25], $instr[11:8], 1'b0} :
+                      $is_u_instr ? {$instr[31:12], 12'b0} :
+                      $is_j_instr ? {{12{$instr[31]}}, $instr[19:12], $instr[20], $instr[30:21], 1'b0} :
+                                    32'b0;
+```
 
 </details>  
 
