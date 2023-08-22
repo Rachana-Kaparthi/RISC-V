@@ -416,7 +416,8 @@ Here's how the Program Counter works in the RISC-V architecture:
    *passed = *cyc_cnt > 40;
    *failed = 1'b0;
 ```
-
+**Output from Makerchip:**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/pc_makerchip.png)
  
 </details>
 
