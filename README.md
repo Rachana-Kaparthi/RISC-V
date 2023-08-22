@@ -596,7 +596,12 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
          $rf_rd_en1 = $rs1_valid;
          $rf_rd_index1[4:0] = $rs1;
          $rf_rd_en2 = $rs2_valid;
-         $rf_rd_index2[4:0] = $rs2;
+         $rf_rd_index2[4:0] = $rs2; 
+ 
+         $src1_value[31:0] = $rf_rd_data1;
+         $src2_value[31:0] = $rf_rd_data2;
+
+         
 ```  
  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/read_register_data.png)  
