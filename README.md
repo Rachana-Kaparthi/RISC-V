@@ -760,5 +760,7 @@ Complete code for RISCV microarchitecture can be seen [here](https://github.com/
 - https://github.com/alwinshaju08
 - https://www.vsdiat.com
 - https://github.com/Lasya-G/Risc_V
+- http://makerchip.com/sandbox/
+- https://github.com/stevehoover/RISC-V_MYTH_Workshop
 
 
