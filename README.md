@@ -587,6 +587,20 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 </details>  
 <details>
  <summary>Control Logic</summary>  
+**Register File Read**  
+``` 
+         //REGISTER FILE READ
+         $rf_wr_en = 1'b0;
+         $rf_wr_index[4:0] = 5'b0;
+         $rf_wr_data[31:0] = 32'b0;
+         $rf_rd_en1 = $rs1_valid;
+         $rf_rd_index1[4:0] = $rs1;
+         $rf_rd_en2 = $rs2_valid;
+         $rf_rd_index2[4:0] = $rs2;
+```  
+ 
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/read_register_data.png)  
+
  
 </details>
 
