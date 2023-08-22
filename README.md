@@ -759,5 +759,6 @@ Complete code for RISCV microarchitecture can be seen [here](https://github.com/
 - https://github.com/RISCV-MYTH-WORKSHOP/RISC-V-CPU-Core-using-TL-Verilog
 - https://github.com/alwinshaju08
 - https://www.vsdiat.com
+- https://github.com/Lasya-G/Risc_V
 
 
