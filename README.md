@@ -522,6 +522,20 @@ Code to extract immediate values:
                       $is_j_instr ? {{12{$instr[31]}}, $instr[19:12], $instr[20], $instr[30:21], 1'b0} :
                                     32'b0;
 ```
+**Decoding other fields in instruction**  
+
+Based on the type of instruction, there are various other fields like rd,rs1,rs2 registers which has to be decoded. These can be decoded as below:  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode_instruction_table.png)  
+
+```
+ //INSTRUCTION DECODE
+         $rs2[4:0] = $instr[24:20];
+         $rs1[4:0] = $instr[19:15];
+         $rd[4:0]  = $instr[11:7];
+         $opcode[6:0] = $instr[6:0];
+         $func7[6:0] = $instr[31:25];
+         $func3[2:0] = $instr[14:12];
+```
 
 </details>  
 
