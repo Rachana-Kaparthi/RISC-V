@@ -685,32 +685,28 @@ Solutions to Pipeline Hazards
 
 **REGISTER FILE BYPASS**
 
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/50d9c9b0-05bc-4a5a-976e-c253deddaa59">  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/ee2e0082-5e01-4cf5-85c2-fbf2f8e4dfa0)
 
-The pipeline structure:<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/5cd0ee1c-691a-4eef-be9f-a9c79873f96d">  
+
+The pipeline structure:  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/01106104-2e23-4a2d-9086-e20808b2cfdb)
 
 The implementation output is as shown below:  
-<p align="center">
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/d15c47be-6335-4db8-9689-429d927a1ca5">  
-</p>
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/b5305b15-6f97-4c3a-8a7c-5908d3b7916e)
 
 **LAB - BRANCHES** 
 
 The pipeline structure:  
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/5840bbcc-26e1-4132-9cfa-2a28dcccdfa4">
 
-The implementation output:
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/c4810eca-9c38-4fa3-b255-2045e233a764)
 
-<p align="center">
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/6f4a4895-03ea-47fd-8a19-ae23269ec885">  
-</p>
+The implementation output:  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/72009af4-bc6a-443f-b503-c6e4082c6596)
 
 **LAB - ALU**   
 
-The makerchip implementation results are:
-<p align="center">
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/96477a58-80a0-43d8-9716-11be0385e3e9">  
-</p>
+The makerchip implementation results are:  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/3500cc6b-167a-4582-a21a-eba0a60ef037)
 
 
 </details>  
@@ -721,40 +717,30 @@ Load/Store Instructions and Completing RISC-V CPU
 </summary> 
 
 **LOAD**  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/ec5a33e9-d1f5-46e9-9c37-5dba6a302921)
 
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/0e33a0c9-5854-41af-819f-468a768fadd1">  
- 
-The pipeline structure: <img width="400" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/700c2548-85b4-48c1-b16a-2324f20f615c">  
 
-The implementation output:
-<p align="center">
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/a5bbd00d-df08-4294-bcfe-3f1157b88b0a">
-</p>
-
-**LOAD/STORE**  
-
-<img width="400" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/1eded761-772a-46e3-9a80-584da3f4afb5">
+The pipeline structure:   
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/2c07fcd8-5a0b-4d2e-8865-272fd9accbd5)
 
 The implementation output:  
 
-<p align="center">
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/4106c86c-15c4-4543-8a40-67fa9e28d4bf">
-</p>
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/e705bc97-6078-406c-8f84-ad77f06676ed)
+
+**LOAD/STORE**  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/9fcafe6d-ca90-4a78-8913-bb384c6afd1c)
+
+The implementation output:  
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/90bc2d38-e6f4-494b-9da5-f63966da0985)
 
 **JUMPS**
 
-<img width="400" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/61ab2fae-cb27-44dc-a89a-82f242d88c6a">   
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/89239918-9a81-48d9-93fb-69cb2a834484)
 
+The makerchip output: 
+![image](https://github.com/Rachana-Kaparthi/RISC-V/assets/140998470/eb502f03-aa67-4dc4-993b-c73021ed341d)
 
-The makerchip output:  
-
-<p align="center">
-<img width="500" alt="image" src="https://github.com/Lasya-G/Risc_V/assets/140998582/8be22a61-dbad-4f2d-8521-03a787b7266f">
-</p>
-
-
-
- Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
+Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
  
  **Final Output in Makerchip**  
  ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/final1_output.png)  
