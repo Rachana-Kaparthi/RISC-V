@@ -481,7 +481,30 @@ In the decode stage (decode cycle), the fetched instruction is examined and deco
 5. Upper immediate  (U) type
 6. Jump (J) type
    
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_decode.png)
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_decode.png)  
+**Code for Decode Instructions**  
+```
+   //INSTRUCTION TYPES DECODE         
+      @1
+         $is_u_instr = $instr[6:2] ==? 5'b0x101;
+         
+         $is_s_instr = $instr[6:2] ==? 5'b0100x;
+         
+         $is_r_instr = $instr[6:2] ==? 5'b01011 ||
+                       $instr[6:2] ==? 5'b011x0 ||
+                       $instr[6:2] ==? 5'b10100;
+         
+         $is_j_instr = $instr[6:2] ==? 5'b11011;
+         
+         $is_i_instr = $instr[6:2] ==? 5'b0000x ||
+                       $instr[6:2] ==? 5'b001x0 ||
+                       $instr[6:2] ==? 5'b11001;
+         
+         $is_b_instr = $instr[6:2] ==? 5'b11000;
+```
+**Output in Makerchip**  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/decode_instruction_makerchip.png)  
+
 </details>  
 
 
