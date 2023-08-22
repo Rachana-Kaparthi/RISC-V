@@ -676,6 +676,7 @@ Code for the same:
                 
 ```
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/valid_makerchip.png)    
+</details>  
 
 <details>
 <summary>
