@@ -645,9 +645,11 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 
 Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
 
+</details> 
+
 # Day 5 - Pipelined RISC-V CPU Micro-architecture  
 
-</details>  
+ 
 <details>
  <summary>Pipelining the CPU</summary>  
  
