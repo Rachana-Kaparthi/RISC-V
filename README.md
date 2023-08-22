@@ -376,7 +376,47 @@ Validity provides :
 
 </details>  
 <details>
- <summary>Fetch and Decode</summary>  
+ <summary>Fetch and Decode</summary>   
+ 
+### Program Counter  
+
+The Program Counter is a crucial component in any computer architecture, including RISC-V, as it is responsible for keeping track of the memory address of the next instruction to be fetched and executed by the CPU.
+
+Here's how the Program Counter works in the RISC-V architecture:
+
+**Fetch Stage:** The Program Counter (PC) holds the memory address of the instruction to be fetched. During the fetch stage of the CPU's pipeline, the instruction located at the address pointed to by the PC is retrieved from memory.
+
+**Incrementing the PC:** After fetching the current instruction, the PC is typically incremented to point to the memory address of the next instruction. This prepares the PC for the next fetch cycle.
+
+**Branch Instructions:** Branch instructions, which are used for conditional jumps or loops, modify the PC. For example, if a branch instruction is taken, the PC is updated to the target address of the branch instruction. If the branch is not taken, the PC is simply incremented to point to the next instruction.
+
+**Jump and Link Instructions:** Jump instructions are used to transfer control to a different part of the program. For example, a jump instruction might be used to call a subroutine. Jump and link instructions (like "jal" in RISC-V) not only modify the PC to jump to a new address but also store the return address (address of the next instruction) in a designated register.
+
+**Interrupts and Exceptions:** In the presence of interrupts, exceptions, or traps, the PC is often saved or modified to handle these events. When an interrupt occurs, the PC is typically saved so that the interrupted program can later resume from where it left off.
+
+**Reset:** During system startup or reset, the PC is initialized to the starting address of the program or the reset handler routine.  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/pc.png)  
+
+**Code for PC Logic:**  
+```
+|cpu
+      @0
+         $reset = *reset;
+         
+         $pc[31:0] = >>1$reset ? 32'b0 : >>1$pc + 32'd4;
+         
+         
+         
+      // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
+      //       be sure to avoid having unassigned signals (which you might be using for random inputs)
+      //       other than those specifically expected in the labs. You'll get strange errors for these.
+
+   
+   // Assert these to end simulation (before Makerchip cycle limit).
+   *passed = *cyc_cnt > 40;
+   *failed = 1'b0;
+```
+
  
 </details>
 
