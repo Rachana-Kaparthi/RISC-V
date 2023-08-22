@@ -664,6 +664,10 @@ Challenges and Considerations of pipelining:
 **Structural Hazards:** Arise from resource conflicts, such as multiple instructions trying to access the same resource simultaneously.
  
  Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
+ 
+ **Final Output in Makerchip**  
+ ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/final1_output.png)  
+ 
 
 </details>
 
