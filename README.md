@@ -380,6 +380,8 @@ Validity provides :
  
 ### Program Counter  
 
+Here, we are using Makerchip platform to for implementation of RISC-V microarchitechture. The code base can be found [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/code_base.v)  
+
 The Program Counter is a crucial component in any computer architecture, including RISC-V, as it is responsible for keeping track of the memory address of the next instruction to be fetched and executed by the CPU.
 
 Here's how the Program Counter works in the RISC-V architecture:
@@ -416,6 +418,7 @@ Here's how the Program Counter works in the RISC-V architecture:
    *passed = *cyc_cnt > 40;
    *failed = 1'b0;
 ```
+
 **Output from Makerchip:**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/pc_makerchip.png)
  
