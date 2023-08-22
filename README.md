@@ -471,7 +471,16 @@ Here's how the Program Counter works in the RISC-V architecture:
 **Output from Makerchip:**  
 ![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fetch_makerchip.png)  
 
+### Decode Logic  
+In the decode stage (decode cycle), the fetched instruction is examined and decoded to determine the operation it specifies and the operands involved. This step involves analyzing the opcode (operation code) and other fields in the instruction to understand what operation needs to be performed. Additionally, the decode stage may involve identifying registers or memory addresses associated with the instruction. There are 6 types of instructions in RISC-V :
 
+1. Register (R) type 
+2. Immediate (I) type
+3. Store (S) type
+4. Branch (B) type
+5. Upper immediate  (U) type
+6. Jump (J) type
+   
 </details>  
 
 
