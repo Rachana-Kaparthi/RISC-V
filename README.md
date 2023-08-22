@@ -480,7 +480,7 @@ In the decode stage (decode cycle), the fetched instruction is examined and deco
 4. Branch (B) type
 5. Upper immediate  (U) type
 6. Jump (J) type
-   
+[](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/instruction_decode.png)
 </details>  
 
 
