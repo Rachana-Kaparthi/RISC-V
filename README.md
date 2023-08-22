@@ -421,9 +421,60 @@ Here's how the Program Counter works in the RISC-V architecture:
 ```
 
 **Output from Makerchip:**  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/pc_makerchip.png)
- 
-</details>
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/pc_makerchip.png)  
+
+### Fetch Logic  
+
+Block diagram of Fetch logic:  
+
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fetch_part2.png)  
+
+Code for Fetch logic:  
+
+```
+|cpu
+      @0
+         $reset = *reset;
+         
+         $pc[31:0] = >>1$reset ? 32'b0 : >>1$pc + 32'd4;
+         
+      @1 
+         $imem_rd_addr[M4_IMEM_INDEX_CNT-1:0] = $pc[M4_IMEM_INDEX_CNT+1:2];
+         $imem_rd_en = !$reset;
+         $instr[31:0] = $imem_rd_data[31:0];
+         
+      ?$imem_rd_en
+         @1
+            $imem_rd_data[31:0] = /imem[$imem_rd_addr]$instr;   
+         
+      // Note: Because of the magic we are using for visualisation, if visualisation is enabled below,
+      //       be sure to avoid having unassigned signals (which you might be using for random inputs)
+      //       other than those specifically expected in the labs. You'll get strange errors for these.
+
+   
+   // Assert these to end simulation (before Makerchip cycle limit).
+   *passed = *cyc_cnt > 40;
+   *failed = 1'b0;
+   
+   // Macro instantiations for:
+   //  o instruction memory
+   //  o register file
+   //  o data memory
+   //  o CPU visualization
+   |cpu
+      m4+imem(@1)    // Args: (read stage)
+      //m4+rf(@1, @1)  // Args: (read stage, write stage) - if equal, no register bypass is required
+      //m4+dmem(@4)    // Args: (read/write stage)
+   
+   m4+cpu_viz(@4)
+```
+Output from Makerchip:  
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/fetch_makerchip.png)  
+
+
+</details>  
+
+
 
 ## Acknowledgements  
 - Kunal Ghosh, VSD Corp. Pvt. Ltd.
