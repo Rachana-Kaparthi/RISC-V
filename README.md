@@ -661,8 +661,23 @@ Challenges and Considerations of pipelining:
 
 **Control Hazards:** Occur due to conditional branches that alter the flow of instructions. Techniques like branch prediction help mitigate these hazards.
 
-**Structural Hazards:** Arise from resource conflicts, such as multiple instructions trying to access the same resource simultaneously.
- 
+**Structural Hazards:** Arise from resource conflicts, such as multiple instructions trying to access the same resource simultaneously.  
+
+**Lab on 3-Cycle Valid Signal**  
+
+Code for the same:  
+```
+   |cpu
+      @0
+         $reset = *reset;
+         $start = (>>1$reset && $reset == 0) ? 1'b1 : 1'b0;
+         $valid = $reset ? 1'b0 :
+                  $start ? 1'b1 : >>3$valid;        
+                
+```
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/valid_makerchip.png)    
+
+
  Complete code for RISCV microarchitecture can be seen [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/final_code.v)  
  
  **Final Output in Makerchip**  
