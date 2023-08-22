@@ -378,9 +378,10 @@ Validity provides :
 <details>
  <summary>Fetch and Decode</summary>   
  
+Here, we are using Makerchip platform to for implementation of RISC-V microarchitechture. The code base can be found [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/code_base.v)  
+ 
 ### Program Counter  
 
-Here, we are using Makerchip platform to for implementation of RISC-V microarchitechture. The code base can be found [here](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/code/code_base.v)  
 
 The Program Counter is a crucial component in any computer architecture, including RISC-V, as it is responsible for keeping track of the memory address of the next instruction to be fetched and executed by the CPU.
 
