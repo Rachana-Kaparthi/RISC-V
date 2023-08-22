@@ -604,8 +604,42 @@ Based on the type of instruction, there are various other fields like rd,rs1,rs2
 ```
 
  
-![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/read_register_data.png)
- 
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/8.%20Register%20file%20read%202.JPG)  
+
+**ALU**  
+```
+         //ARITHMETIC AND LOGIC UNIT (ALU)
+         $result[31:0] = $is_addi ? $src1_value + $imm :
+                         $is_add ? $src1_value + $src2_value :
+                         32'bx ;
+```
+
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/alu.png)  
+
+**Register File Write**  
+```
+         //REGISTER FILE WRITE
+         $rf_wr_en = $rd_valid && $rd != 5'b0;
+         $rf_wr_index[4:0] = $rd;
+         $rf_wr_data[31:0] = $result;
+```
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/register_file_write.png)  
+
+**Branch Instruction**  
+```
+         //BRANCH INSTRUCTIONS 1
+         $taken_branch = $is_beq ? ($src1_value == $src2_value):
+                         $is_bne ? ($src1_value != $src2_value):
+                         $is_blt ? (($src1_value < $src2_value) ^ ($src1_value[31] != $src2_value[31])):
+                         $is_bge ? (($src1_value >= $src2_value) ^ ($src1_value[31] != $src2_value[31])):
+                         $is_bltu ? ($src1_value < $src2_value):
+                         $is_bgeu ? ($src1_value >= $src2_value):
+                                    1'b0;
+         `BOGUS_USE($taken_branch)
+```
+![](https://github.com/Rachana-Kaparthi/RISC-V/blob/main/Images/branch_instruction.png)  
+
+
 </details>
 
 ## Acknowledgements  
