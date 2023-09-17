@@ -748,7 +748,7 @@ Complete code for RISCV microarchitecture can be seen [here](https://github.com/
 
 </details>
 
-## Acknowledgements  
+## Acknowledgement  
 - Kunal Ghosh, VSD Corp. Pvt. Ltd.
 - Lasya, Colleage, IIIT B
 - Alwin Shaju, Colleague, IIIT B
